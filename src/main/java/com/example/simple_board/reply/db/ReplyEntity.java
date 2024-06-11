@@ -1,10 +1,12 @@
-package com.example.simple_board.reply;
+package com.example.simple_board.reply.db;
 
 
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDateTime;
+import java.util.Arrays;
+import java.util.List;
 
 @Getter
 @Setter
@@ -34,5 +36,6 @@ public class ReplyEntity {
     private  String context;
 
     private LocalDateTime reply_at;
+
 
 }
